@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+header{
+
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    text-transform: uppercase;
+
+}
+.Judul{
+    font-style: oblique;
+}
+
+.Menu {
+    align-content: center;
+    background-color: burlywood;
+    border: 1px solid #f0f0f0;
+} 
+div.Menu ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+div.Menu ul li{
+    float: left;
+    text-transform: uppercase;
+}
+
+div.Menu ul li a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+div.Menu ul li a:hover,
+div.Menu ul li a.hoverover {
+    cursor: pointer;
+    color: brown;
+}
