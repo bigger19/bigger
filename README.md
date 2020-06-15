@@ -1,2 +1,1 @@
-# bigger
-?_?
+dasar membuat web dan mengenal dasar web
